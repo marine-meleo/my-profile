@@ -1,0 +1,93 @@
+h1 {
+	color: #2F0A28;
+	font-family: Arial;
+	font-size: 80px;
+	font-weight: 800;
+	line-height: 1.5;
+	letter-spacing: 1.5px;
+	text-align: center;
+	text-decoration: none; 
+}
+body {
+	color: rgb(30, 30, 30);
+	background-color: #D9CFC1;
+	font-family: Arial, sans-serif; 
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none; 
+}
+h2 {
+	color: #AF4319;
+	font-family: Arial; 
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: none; 
+}
+a {
+	color: #00272B;
+	text-decoration: none;
+	text-align: center;
+}
+.container {
+	background-color: #D9CFC1;
+	border-style: none;
+}
+div {
+	background-color: #F9F5E3;
+	border-top: 4px solid #1D1E2C;
+	border-right: 4px solid #1D1E2C;
+	border-left: 4px solid #1D1E2C;
+	border-bottom: 4px solid #1D1E2C;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	padding: 24px;
+	margin: 30px auto;
+
+}
+.img-circle {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
+.btn-blue {
+  color: #00272B;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #AF4319;
+  transition: background 0.3s ease;
+}
+.btn-blue:hover {
+  background: #00272B;
+  color:#AF4319;
+  border : 5px solid #00272B;
+}
+ul, ol {
+    list-style-type: none;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+  	width: 150px;
+  	height: 150px;
+	border-radius: 50%;
+  }
+}
